@@ -1,0 +1,6 @@
+[[redirects]]
+  from = "/images/*"
+  to = "/.netlify/functions/image-proxy?url=https://your-site.netlify.app/images/:splat"
+  status = 200
+  force = true
+
